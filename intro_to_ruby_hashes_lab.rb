@@ -4,15 +4,23 @@ def new_hash
 end
 
 def my_hash
-  this_hash = 
+  this_hash = {
+    :mykey => 1
+  }
   # return a valid hash with any key/value pair of your choice
 end
 
 def pioneer
+  pioneer_hash = {
+    :name => "Grace Hopper"
+  }
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
 def id_generator
+  Int_Hash = {
+    :id => 2
+  }
   # return a hash with a key :id assigned to positive integer
 end
 
